@@ -1,6 +1,6 @@
 ## Sudoku Generator
 
-This project aims to develop an api to generate random sudoku board and a client to render and make requests to the API. Download both `SudokuClient` and `SudokuAPI`.
+This project aims to develop an api to generate random sudoku board and a client to render and make requests to the API. Download both `SudokuClient` and `SudokuAPI`. Please also read the READMEs in both `SudokuClient` and `SudokuAPI` to have details on how to run the app.
 
 ## Requirements
 The project was developed in an Unix environment but it should be running on windows and Linux OS as well given that all dependencies are installed.
