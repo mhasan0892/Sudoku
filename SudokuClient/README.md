@@ -4,7 +4,7 @@ This project was built with [Angular CLI](https://github.com/angular/angular-cli
 
 ## Development server
 
-Run `npm run start` for a dev server. Navigate to `http://localhost:8080/`.
+Make sure to run `npm install` in the root directory (SudokuClient) to install all dependencies. Run `npm run start` for a dev server. Navigate to `http://localhost:8080/`.
 
 ## Build
 
@@ -13,3 +13,4 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Running unit tests
 
 Run `npm run test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
