@@ -5,6 +5,11 @@ This project aims to develop an api to generate random sudoku board and a client
 ## Requirements
 The project was developed in an Unix environment but it should be running on windows and Linux OS as well given that all dependencies are installed.
 
+## Technologies
+Programming Language: TypeScript\
+Build Tools: npm\
+Libraries/Tools: Angular, Karma, HTML5, CSS, Mocha-Chai
+
 ## Dependencies
 
 Download and install npm. Make sure to install the following dependencies manually in both SudokuAPI and SudokuClient directories.
