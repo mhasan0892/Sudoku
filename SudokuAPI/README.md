@@ -8,4 +8,4 @@ This API provides a randomly generated Sudoku board. The API handles both http `
 
 ## Development server
 
-Run `npm run start` for a dev server. Navigate to `http://localhost:3000/sudoku/board`. Should be a JSON object containing a randomly generated board. The build automatically runs all the tests before starting the server.
+Make sure to run `npm install` in the root directory (SudokuClient) to install all dependencies. Run `npm run start` for a dev server. Navigate to `http://localhost:3000/sudoku/board`. Should be a JSON object containing a randomly generated board. The build automatically runs all the tests before starting the server.
