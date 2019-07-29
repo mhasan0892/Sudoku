@@ -1,0 +1,19 @@
+<!-- reload button to refresh the board -->
+<button type="button" class="btn btn-outline-success" (click)="reload()">Reload</button>
+<div class="container">
+  <!-- shows the spinning gear if the board is still loading-->
+  <div *ngIf="isLoading() else loaded">
+    <div class="lds-gear" style="width:100%;height:100%"><div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+  </div>
+  <!-- container that renders the board in a 9x9 grid -->
+  <ng-template #loaded>
+    <div *ngFor="let row of getCurrentBoard(); let r = index" class = "grid-container">
+      <div *ngFor="let cell of row; let c = index"
+           [ngClass]="{'grid-item-highlight': isSelected(r,c), 'grid-item': !isSelected(r,c)}"
+           (click)="cellClicked(r,c)">
+        {{cell}}
+      </div>
+    </div>
+  </ng-template>
+</div>
+
