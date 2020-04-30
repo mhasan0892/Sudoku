@@ -21,7 +21,7 @@
     "@angular/router": "~8.1.1",
     "bootstrap": "^4.3.1",
     "fsevents": "^2.0.7",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "node-pre-gyp": "^0.13.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.9.0",
